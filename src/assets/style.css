@@ -838,6 +838,7 @@ li:has(input[type='checkbox']:checked:disabled)::before {
   }
 
   #aside-container {
+    display: none;
     width: 100%;
     border-bottom: 1px solid var(--border-color);
     padding-bottom: 10px;
