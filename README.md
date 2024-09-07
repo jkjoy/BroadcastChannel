@@ -44,6 +44,7 @@ English | [简体中文](./README.zh-cn.md)
 - [Fugoou.log](https://fugoou.xyz)
 - [Bboysoul的博客](https://tg.bboy.app/)
 - [MakerHunter](https://share.makerhunter.com/)
+- [ChatGPT/AI新闻聚合](https://g4f.icu/)
 
 ### Platform
 
@@ -61,6 +62,13 @@ For detailed tutorials, see [Deploy your Astro site](https://docs.astro.build/en
 - Template: [Sepia](https://github.com/Planetable/SiteTemplateSepia)
 
 ## 🏗️ Deployment
+
+### Docker
+
+1. `docker pull ghcr.io/ccbikai/broadcastchannel:main`
+2. `docker run -d --name broadcastchannel -p 4321:4321 -e CHANNEL=miantiao_me ghcr.io/ccbikai/broadcastchannel:main`
+
+### Serverless
 
 1. [Fork](https://github.com/ccbikai/BroadcastChannel/fork) this project to your GitHub
 2. Create a project on Cloudflare/Netlify/Vercel
