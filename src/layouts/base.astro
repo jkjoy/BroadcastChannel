@@ -80,10 +80,15 @@ const FOOTER_INJECT = getEnv(import.meta.env, Astro, 'FOOTER_INJECT')
             <div class="nav">
               <div class="nav-item">
                 <a href={SITE_URL} title={channel?.title} class={`nav-link current`}>Home</a>
+              </div>
+              <div class="nav-item">
                 <br><a href=https://memos.ee title=Memos class={`nav-link current`}>Memos</a>
-                <br><a href=https://blog.memos.ee title=博客 class={`nav-link current`}>Blog</a>
-                <br><a href=https://bbs.memos.ee title=论坛 class={`nav-link current`}>Forum</a>
-                <br><a href={SITE_URL} title=关于 class={`nav-link current`}>About</a>
+              </div>
+              <div class="nav-item">
+               <br><a href=https://blog.memos.ee title=博客 class={`nav-link current`}>Blog</a>
+              </div>
+              <div class="nav-item">
+               <br><a href=https://bbs.memos.ee title=论坛 class={`nav-link current`}>Forum</a>
               </div>
             </div>
             <input class="search-icon" name="icon" type="checkbox" placeholder="Search" />
